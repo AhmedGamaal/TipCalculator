@@ -1,0 +1,114 @@
+body{
+    background-color: red;}
+.contanr{
+    width:25%;
+    height:500px;
+    background-color: rgb(228, 226, 226);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: 36%;}
+ #div_txt{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height:50px;
+        background-color: rgb(75, 2, 2);}
+ #span_txt{
+            padding-top:14px ;
+            margin-left:25%;
+            color: white;
+            font-family: sans-serif;}
+.How_much,.box_service,.many_people{ 
+                width: 90%;
+                height:70px;
+                margin:-2.5% 0% 5% 5%;}
+.calculator_tip {
+                    width: 90%;
+                    height:150px;
+                    margin:0% 0% 5% 5%;}
+#div_h5{
+                        width: 47%;
+                        height: 25px;
+                        margin-left: 28.3%;}
+#div_txt_box{display: flex;
+                            height:50px;
+                        flex-direction: row;}
+#input_text{
+                            margin:0% 2.5% 2.5% 2.5%;
+                            outline-style: none;
+                            width: 95%;
+                            border-radius: 10px;
+                            height: 30px;}
+#dol{
+                                font-size: 25px;
+                                width:5%;
+                                margin-top: -25px;
+                                margin-left: 10px;}
+#txt_service{
+                                    margin-left:32%;}
+#drop_box{
+                                        width:95%;
+                                        margin: -5% 2.5% 2.5% 2.5%;
+                                        height:50px;}
+#drop_service{
+                                            width:100%;
+                                            height:100%;
+                                            outline-style: none;
+                                            border-radius: 10px;
+                                            font-size: 25px;}
+#input_txt{
+                                            display: flex;
+                                            width:95%;
+                                            margin:-5% 2.5% 2.5% 2.5%;
+                                            height:55%;}
+#people_txt{
+                                            margin-left:15%;}
+#input_type{
+                                            width:90%;
+                                            outline-style: none;
+                                            border-radius: 10px;
+                                           ;}
+#people_h5{
+                                            margin:10px 0px 0px 15px;}
+#div_butt{
+                                             width:95%;
+                                             height:31%;
+                                             margin:2.5%;}  
+#butt_cul{
+                                          width: 60%;
+                                          outline-style: none;
+                                        height:100%;
+                                        background-color: rgb(177, 0, 53);
+                                        color: white;
+                                        border-radius: 10px;
+                                        border: black;
+                                        margin-left:20%; } 
+#butt_cul:hover{
+background-color: rgb(207, 11, 70) ;}
+#butt_cul:active{
+                                            background-color: rgb(82, 1, 26) ;}    
+#tip_amo{line-height: 6px;
+                                        
+                                        width:50%;
+                                        height:55%;
+                                        margin-left:26%;}
+#title_num{ 
+                                        
+                                         width:80%;
+                                        
+                                            margin-left:10%;}
+#num_{ 
+                                        
+                                            width:80%;
+                                        
+                                            margin-left:10%;}
+#each_{ 
+                                              
+                                                width:25%;
+                                        
+                                                margin-left:37%;}}
+                                                    
+                                        
+                                        
+                                        

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'> 
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tip calculator</title> <!-- Name page-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='TipCul.css'> <!-- call fill Css-->
+    <script src='TipCul.js'></script> <!-- call fill JavaScript-->
+</head>
+<body>
+
+
+    <div class="contanr"><!-- class contaner -->
+
+        <div class="taxt"> <!-- class name text nav bare -->
+             <div id="div_txt">  <!-- id name text span-->
+                 <h3 id="span_txt"> <!-- id name span name-->
+                  
+                     TIP CALCULATOR
+                 
+                 </h3><!--End span-->
+                </div><!--End Div txt -->
+            </div><!--End class  Div taxt -->
+            <div class="How_much" ><!--start class  How much  -->
+     
+     
+                <div id="div_h5"> <!--start  Div h5 -->
+                    <h5> How much was your bill</h5> <!--create text How much -->
+                 </div><!--End tag name   Div h5 -->
+                <div id="div_txt_box"><!--start tag name  Div text box -->
+                    <div id="dol"> <h5 >$</h5></div> <!--create  text $ -->
+                  <input id="input_text" type="text" value="" /> <!--creat input text box -->
+                </div><!--End id  Div txt box -->
+       </div>  <!--End class  How much -->
+       <div class="box_service" ><!-- start class Box Service-->
+        <div id="txt_service" > <!-- start tag name text Service-->
+             <h5>How was you service</h5>  <!-- create  text-->
+        </div><!-- End Div tag name text Service-->
+        <div id="drop_box">  <!-- start Div tag name Drop Service-->
+            <select id="drop_service"><!-- create Drop Down-->
+                <option value="30">Outstanding - 30%</option> <!-- option Outstanding-30% -->
+                <option value="20">Good - 20%</option> <!-- Good-20% -->
+                <option value="15">OK - 15%</option><!-- OK-15% -->
+                <option value="10">Bad - 10%</option><!-- option Bad-10% -->
+                <option value="5">Terrible - 5%</option> <!-- option Terrible-5% -->
+
+              </select> <!--End tag name Drop Service -->
+        </div> <!--End tag name  Drop Box -->
+       </div> <!--End class  Box Service -->     
+       <div class="many_people" ><!--Start Class many people-->
+       <div id="people_txt"><h5>How many people are sharing the bill</h5></div> <!-- line Div Create text -->
+       <div id="input_txt"><input id="input_type" type="text" value=""/> <!-- Create Input type text box-->
+       <h5 id="people_h5"> people</h5></div>  <!--Create text  people-->
+       </div><!--End Class many people-->
+       <div class="calculator_tip" > <!-- start Class calculator_tip -->
+        <div id="div_butt"><!-- start tag name div button -->
+            <input id="butt_cul" onclick="clickBut()" type="button" value="CALCULATOR!" /> <!-- create onclick button CALCULATOR! call function arrow -->
+        </div><!-- End tag name div button -->
+  
+
+        <div id="tip_amo"> <!-- Start tag name tip_amo -->
+            <h3 id="title_num">TIP AMOUNT</h3> <!-- Create title TIP AMOUNT -->
+            <h2 id="num_"><sup>$</sup> </h2><!-- Create SuperScript and append span child-->
+            <h3 id="each_">each</h3> <!-- Create text each -->
+        </div> <!-- End tag name tip_amo -->
+            </div> <!-- End Class calculator_tip -->   
+               
+         </div><!--End  class contaner PERANT -->
+  
+</body>
+</html>
